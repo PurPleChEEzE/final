@@ -161,12 +161,11 @@ ul, li{
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    margin: 0;
+    margin: 0 10px 0 0;
     padding: 4px 10px;
     background-color: #dbe9f8;
     border-radius: 6px;
     width: 110px;
-    margin-right: 10px;
     color: #717275;
     box-shadow: 2px 2px 2px #5d5d5d40;
 }
@@ -187,8 +186,8 @@ ul, li{
 }
 
 .payment-history-area{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: 600px;
@@ -196,6 +195,7 @@ ul, li{
     background-color: #fff;
     padding: 30px;
     justify-content: flex-start;
+    position: relative;
 }
 
 .payment-history-table{
@@ -230,4 +230,21 @@ ul, li{
 
 .payment-history-table td{
     padding: 34px 0;
+}
+
+.payment-history-pagination{
+    position: absolute;
+    bottom:  2%;
+}
+
+.payment-history-pagination ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.payment-history-pagination .page-link{
+    padding: 5px 12px;
+    border-radius: 10px;
 }
