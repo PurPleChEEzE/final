@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
     const chatbotButton = document.getElementById('chatbot-button');
     const chatbotBox = document.getElementById('chatbot-box');
     const closeChatbot = document.getElementById('close-chatbot');
@@ -12,4 +12,4 @@ document.addEventListener('DOMContentLoaded', function() {
     closeChatbot.addEventListener('click', function() {
         chatbotBox.classList.add('hidden');
     });
-});
+// });
